@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kaustav Karak Portfolio</title>
     <!-- CUSTOM CSS file -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -14,8 +14,9 @@
         <ul>
           <li><a href="#home">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
-          <li><a href="#">SKILLS</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
     </header>
@@ -35,7 +36,7 @@
           <a href="#contact">CONNECT WITH ME</a>
         </div>
         <div class="images">
-          <img src="img/shape.png" id="shape" />
+          <img src="img/home/shape.png" id="shape" />
           <img src="img/mypic.png" id="mypic" />
         </div>
       </section>
@@ -45,7 +46,7 @@
         <div class="headings">ABOUT ME</div>
         <div class="about-content">
           <div class="pic">
-            <img src="img/pic_about.jpg" alt="" />
+            <img src="img/about/pic_about.jpg" alt="" />
           </div>
           <div class="details">
             <h2><span>F</span>RONTEND <span>D</span>EVELOPER</h2>
@@ -58,10 +59,181 @@
               Public School with 90% aggregate. I also have GPA of 9.08 till my
               4th semester. I’m very much interested in designing websites.
             </p>
-            <button class="cv-btn">My Resume</button>
+            <button class="cv-btn"><a href="cv/Kaustav Karak_CV.pdf" download="">My Resume</a></button>
           </div>
         </div>
       </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <div class="headings">SKILLS</div>
+        <div class="skill-div">
+          <div id="prog" class="skill-items">
+            <h2>Programming languages</h2>
+            <div id="c" class="prog-div">
+              <img src="img/skills/c.png" alt="" class="skill-logos">
+              <p>C</p>
+            </div>
+            <div id="c++" class="prog-div">
+              <img src="img/skills/c++.png" alt="" class="skill-logos">
+              <p>C++</p>
+            </div>
+            <div id="java" class="prog-div">
+              <img src="img/skills/java.png" alt="" class="skill-logos">
+              <p>Java</p>
+            </div>
+            <div id="js-p" class="prog-div">
+              <img src="img/skills/js.png" alt="" class="skill-logos">
+              <p>JavaScript</p>
+            </div>
+          </div>
+          <div id="frontend" class="skill-items">
+            <h2>Frontend Development</h2>
+            <div id="html" class="frontend-div">
+              <img src="img/skills/html.png" alt="" class="skill-logos">
+              <p>HTML</p>
+            </div>
+            <div id="css" class="frontend-div">
+              <img src="img/skills/css.png" alt="" class="skill-logos">
+              <p>CSS</p>
+            </div>
+            <div id="js-f" class="frontend-div">
+              <img src="img/skills/js.png" alt="" class="skill-logos">
+              <p>JavaScript</p>
+            </div>
+            <div id="tailwind" class="frontend-div">
+              <img src="img/skills/tailwind.png" alt="" class="skill-logos">
+              <p>Tailwind CSS</p>
+            </div>
+            <div id="react" class="frontend-div">
+              <img src="img/skills/react.png" alt="" class="skill-logos">
+              <p>React Js</p>
+            </div>
+          </div>
+          <div id="others" class="skill-items">
+            <h2>Other Skills</h2>
+            <div id="dsa" class="others-div">
+              <img src="img/skills/dsa.png" alt="" class="skill-logos">
+              <p>Data Structure and Algorithm</p>
+            </div>
+            <div id="os" class="others-div">
+              <img src="img/skills/os.png" alt="" class="skill-logos">
+              <p>Operating Systems</p>
+            </div>
+            <div id="cn" class="others-div">
+              <img src="img/skills/cn.png" alt="" class="skill-logos">
+              <p>Data Structure and Algorithm</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services">
+        <div class="headings">SERVICES</div>
+        <div class="row">
+          <div class="box">
+            <img src="img/services/web_design.png" alt="">
+            <h1>Website Design</h1>
+            <p>Get excellent website designs for your business. All websites will be responsive. User experience is what matters most for your business, which will be given top priority from me. SEO is also taken care of to help list your webpage at the top. Get services at a low cost with fast service. Contact me for further details.</p>
+          </div>
+          <div class="box">
+            <img src="img/services/uiux.png" alt="">
+            <h1>UI / UX Designer</h1>
+            <p>I aim to create a positive user experience that encourages customers to stick with a brand or product. To succeed in today's market, my approach will focus more on customer-centric thinking. User-friendly interfaces are essential for digital products that are meant to be used by the general public. All aspects of the product's design and usability are being considered by me in order to ensure a positive user experience. Contact me for further details.</p>
+          </div>
+          <div class="box">
+            <img src="img/services/dig_mark.png" alt="">
+            <h1>Digital Marketing</h1>
+            <p>There are as many specializations within digital marketing as there are ways of interacting using digital media. I guide people with some key Digital Marketing tactics like Search Engine Optimization (SEO), Content Marketing, Social Media Marketing, Pay-per-click marketing, Affiliate marketing, Native Addressing, Influencer marketing, Marketing automation, Email marketing and Mobile marketing. Contact me for further details.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="headings">CONTACT</div>
+        <div class="contact-container">
+          <form action="#" class="contact-form">
+            <div class="form-group">
+              <label for="name"></label>
+              <h4 class="input-type">Name</h4>
+              <input type="text" id="name" name="name" required />
+            </div>
+  
+            <div class="form-group">
+              <label for="email"></label>
+              <h4 class="input-type">Email</h4>
+              <input type="email" id="email" name="email" required />
+            </div>
+  
+            <div class="form-group">
+              <label for="phone"></label>
+              <h4 class="input-type">Phone Number</h4>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+  
+            <div class="form-group">
+              <label for="message"></label>
+              <h4 class="input-type">Message</h4>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            
+            <div class="contact-btns">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="social-media">
+          <h3>Follow me on</h3>
+          <div class="smlogos">
+          <div id="linkedin" class="social-logos">
+            <a href="##"><img src="img/contact/linkedin.png" alt=""></a>
+          </div>
+          <div id="github" class="social-logos">
+            <a href="##"><img src="img/contact/github.png" alt=""></a>
+          </div>
+          <div id="facebook" class="social-logos">
+            <a href="##"><img src="img/contact/facebook.png" alt=""></a>
+          </div>
+          <div id="instagram" class="social-logos">
+            <a href="##"><img src="img/contact/instagram.png" alt=""></a>
+          </div>
+          <div id="x" class="social-logos">
+            <a href="##"><img src="img/contact/x.png" alt=""></a>
+          </div>
+        </div>
+        </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <div class="follow">
+        <div class="social-icons">
+          <a href="##"><img src="img/contact/linkedin.png" alt="Linkedin" /></a>
+          <a href="##"><img src="img/contact/github.png" alt="Github" /></a>
+          <a href="##"><img src="img/contact/facebook.png" alt="Facebook" /></a>
+          <a href="##"><img src="img/contact/instagram.png" alt="Instagram" /></a>
+          <a href="##"><img src="img/contact/x.png" alt="X" /></a>
+        </div>
+      </div>
+      <div class="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home-sec">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 The Kaustav's Portfolio. All Rights Reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
