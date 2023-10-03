@@ -882,3 +882,9 @@ footer .quick-links ul li a:hover {
     width: 20px;
   }
 }
+
+@media only screen and (max-width: 373px) {
+  .two {
+    margin-top: 10px;
+  }
+}
